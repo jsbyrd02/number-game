@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles.css">
+  <title>Guess My Number</title>
+</head>
+<body>
+  <header>
+    <h1>Guess My Number!</h1>
+  </header>
+  <div class="rules-container">
+    <p class="rules">
+      Rules: Try to guess my number between 1 and 100. Each time you guess incorrectly,
+      I will tell you whether your guess was higher or lower than my number.
+    </p>
+  </div>
+  <div class="score-container">
+    <p class="score">Score: 0</p>
+  </div>
+  <form>
+    <input type="text" class="number-input" placeholder="Enter your guess...">
+    <button type="submit" class="number-button">
+      <i class="fa-regular fa-square-check"></i>
+    </button>
+  </form>
+  <div class="status-container">
+    <p class="user-status"></p>
+  </div>
+  <div class="reset-container"></div>
+  
+
+
+  <script src="./app.js"></script>
+</body>
+</html>

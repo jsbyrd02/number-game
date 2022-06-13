@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #614385, #516395);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 20vh;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.rules-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 15vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+.rules,
+.user-status {
+  font-size: 1.5rem;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 5vh;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.score {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 8vh;
+}
+
+.number-input,
+.number-button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.number-input {
+  width: 15rem;
+}
+
+.number-button {
+  cursor: pointer;
+}
+
+.fa-square-check {
+  pointer-events: none;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 5vh;
+  padding: 1vh;
+}
+
+.reset-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+  padding-top: 3rem;
+}
+
+.reset-button {
+  cursor: pointer;
+  background-color: #279b27;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
